@@ -1,0 +1,71 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.eggs/
+dist/
+build/
+sdist/
+*.egg-info/
+*.deb
+*.rpm
+*.exe
+
+# PyInstaller
+#  Often these are written to the current system path rather than the project root
+__pycache__
+dist
+build
+
+# Environments
+.venv
+venv
+env
+ENV
+*.env
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.log
+*.rpt
+*.junit
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.db
+*.sqlite3
+*/migrations/*
+!*/migrations/__init__.py
+
+# Flask stuff:
+instance/
+*.db
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx stuff:
+docs/_build/
+
+# IDEs and editors
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+.project
+.DS_Store
+tmp/
+tmp*
+*.bak
+*~.iml
